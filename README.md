@@ -7,7 +7,7 @@ Project 3 in Term 2 of Udacity Robotics Nanodegree
 
 ## Supporting Images
 
-[Supporting Images](Map Runs)
+[Supporting Images](Mapping Runs)
 
 ## ROS Package
 
