@@ -7,7 +7,7 @@ Project 3 in Term 2 of Udacity Robotics Nanodegree
 
 ## Supporting Images
 
-[Supporting Images](Mapping Runs)
+[Graph, Occupancy Grid, and Point Clound Images](Mapping Runs)
 
 ## ROS Package
 
