@@ -15,13 +15,9 @@ Project 3 in Term 2 of Udacity Robotics Nanodegree
 
 ## ROS Package
 
-[map_my_world](map_my_world)
+[Map My World](map_my_world)
 
 ## Src Folders
-
-[Reference Design](udacity_bot)
-
-[Modified Design](my_udacity_bot)
 
 
 ## Results
