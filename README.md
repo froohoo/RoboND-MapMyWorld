@@ -23,4 +23,4 @@ Project 3 in Term 2 of Udacity Robotics Nanodegree
 
 ## Gazebo World File
 
-[Break Room World File](map_my_world\worlds\breakroom_w_extras.world)
+[Break Room World File](map_my_world/worlds/breakroom_w_extras.world)
