@@ -3,7 +3,7 @@ Project 3 in Term 2 of Udacity Robotics Nanodegree
 
 ## Write-Up
 
-[Project Write-up](where_am_i.pdf)
+[Project Write-up](rtab-mapping.pdf)
 
 ## Src Folders
 
