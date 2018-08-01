@@ -7,7 +7,7 @@ Project 3 in Term 2 of Udacity Robotics Nanodegree
 
 ## ROS Package
 
-[map_my_world(map_my_world)
+[map_my_world](map_my_world)
 
 ## Src Folders
 
