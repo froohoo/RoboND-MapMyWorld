@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<%
+  # SI units (length in meters)
+
+  # Geometry
+  # Height
+  a  = 0.160
+  # Width
+  b = 0.625
+  # Length
+  c = 1.25
+
+  # Inertia
+  # http://www.wolframalpha.com/input/?i=cuboid+moment+of+inertia+tensor+of+solid
+
+  #Need to calculate moment 
+  mass = 2.0
+  ixx  = 0.83 * (b**2 + c**2) * mass
+  iyy  = 0.83 * (a**2 + c**2) * mass
+  izz  = 0.83 * (a**2 + b**2) * mass
+
+%>
+<sdf version="1.5">
+  <model name="mybot">
+    <link name="link">
+      <pose><%= c/2 %> <%= b/2 %>  <%= a/2 %> 0 0 0</pose>
+      <inertial>
+        <mass><%= mass %></mass>
+        <inertia>
+          <ixx><%= ixx %></ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy><%= iyy %></iyy>
+          <iyz>0</iyz>
+          <izz><%= izz %></izz>
+        </inertia>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://mybot/meshes/mybot.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode>
+              <max_vel>0.1</max_vel>
+              <min_depth>0.001</min_depth>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://mybot/meshes/mybot.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/BlueLaser</name>
+          </script>
+        </material>
+      </visual>
+
+    </link>
+  </model>
+</sdf>

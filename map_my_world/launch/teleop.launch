@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+    <!--Launch the provided teleop python script as a ROS node -->
+    <remap from="/teleop/cmd_vel" to="/cmd_vel" />
+    <node pkg="map_my_world" name="teleop" type="teleop" output="screen" />
+</launch>
