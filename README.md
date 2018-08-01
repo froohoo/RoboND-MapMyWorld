@@ -9,6 +9,10 @@ Project 3 in Term 2 of Udacity Robotics Nanodegree
 
 [Graph, Occupancy Grid, and Point Clound Images](Mapping%20Runs)
 
+## RTAB-Map Database
+
+[Run 4 Database (links externally due to file size)](https://drive.google.com/file/d/1CRXCEwF_j-GDKVnsGEGhEVqllwcxRbI9/view?usp=sharing)
+
 ## ROS Package
 
 [map_my_world](map_my_world)
