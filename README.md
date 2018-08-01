@@ -5,6 +5,10 @@ Project 3 in Term 2 of Udacity Robotics Nanodegree
 
 [Project Write-up](rtab-mapping.pdf)
 
+## ROS Package
+
+[map_my_world(map_my_world)
+
 ## Src Folders
 
 [Reference Design](udacity_bot)
